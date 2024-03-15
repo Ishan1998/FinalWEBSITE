@@ -521,6 +521,9 @@
   .home-heading {
     font-size: 25px;
     text-align: left;
+    font-style: normal;
+    font-family: Georgia;
+    font-weight: 700;
   }
   .home-icon {
     flex-direction: column;
