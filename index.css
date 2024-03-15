@@ -465,7 +465,8 @@
     justify-content: center;
   }
   .home-mobile-menu {
-    display: flex;
+    height: 350px;
+    display: none;
   }
   .home-text {
     font-size: 30px;
@@ -525,10 +526,15 @@
     flex-direction: column;
   }
   .home-mobile-menu {
+    top: 0px;
+    left: 0px;
     width: 100%;
-    height: 100%;
+    height: 286px;
     display: none;
     padding: 16px;
+  }
+  .home-nav1 {
+    width: 425px;
   }
   .home-text {
     font-size: 30px;
